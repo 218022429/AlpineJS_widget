@@ -1,0 +1,32 @@
+body {
+    background-color: blue ;
+    padding: 25%;
+}
+
+.message {
+    padding: 1em;
+    background-color: hsl(340, 1%, 59%);
+    margin-bottom: 1em;
+}
+
+.input>label {
+    width: 15em;
+    padding: 0.5em;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.input>input[type="text"] {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.widget {
+    flex: 1;
+    border: 1px solid hwb(30 87% 12%);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: aliceblue;
+}
+
